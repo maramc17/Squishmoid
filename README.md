@@ -6,3 +6,4 @@
 # Results and Findings
 The table below shows the testing accuracies for cifar100 and imagenet42, with alpha being at different values.
 
+- insert table here -
