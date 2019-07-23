@@ -3,7 +3,9 @@
 
 - With the assistance of Xu Ma and Andrew Sansom, I was able to rewrite the code for ResNet50 with the adjustments of my "Squished" Sigmoid.
 
+- Also Tested was the results of Softmax if the same alpha adjustments were placed but for the softmax function. 
+
 # Results and Findings
 The table below shows the testing accuracies for cifar100 and imagenet42, with alpha being at different values.
-
+  - Softmax had sporadic resluts, making them inefficient compared to the results of sigmoid.
 > insert table here 
