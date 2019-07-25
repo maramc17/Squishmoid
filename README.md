@@ -6,6 +6,13 @@
 - Also Tested was the results of Softmax if the same alpha adjustments were placed but for the softmax function. 
 
 # Results and Findings
-The table below shows the testing accuracies for cifar100 and imagenet42, with alpha being at different values.
-  - Softmax had sporadic results, making them inefficient compared to the results of sigmoid.
-> insert table here 
+The table below shows the testing accuracies for cifar100 and imagenet32, with alpha being at different values.
+  > Softmax had sporadic results, making them inefficient compared to the results of sigmoid.
+
+        CIFAR100 RESULTS
+        
+| Alpha | Test Accuracy | Test Loss |
+|-------|---------------|-----------|
+|   1   |     74.83     |   ~1.24   |
+|   2   |     75.09     |   ~1.23   |
+|   3   |     75.82     |   ~1.13   |
