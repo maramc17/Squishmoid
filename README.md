@@ -7,7 +7,8 @@
 
 # Results and Findings
 The table below shows the testing accuracies for cifar100 and imagenet32, with alpha being at different values.
-  > Softmax had sporadic results, making them inefficient compared to the results of sigmoid.
+  > Softmax had sporadic results in Cifar100, making them inefficient compared to the results of sigmoid.  
+  > In Imagenet32 the results nulled out as alpha increase continueing to make them inefficient.
 
         CIFAR100 RESULTS
         
