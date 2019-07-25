@@ -15,4 +15,4 @@ The table below shows the testing accuracies for cifar100 and imagenet32, with a
 |-------|---------------|-----------|
 |   1   |     74.83     |   ~1.24   |
 |   2   |     75.09     |   ~1.23   |
-|   3   |     75.82     |   ~1.13   |
+|   5   |     75.82     |   ~1.13   |
