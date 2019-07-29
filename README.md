@@ -12,12 +12,12 @@ The table below shows the testing accuracies for cifar100 and imagenet32, with a
 
         CIFAR100 RESULTS                                            IMAGENET42
         
-| Alpha | Test Accuracy | Test Loss |                  | Alpha | Test Accuracy | Test Loss |   
-|-------|---------------|-----------|                  |-------|---------------|-----------|
-|   1   |     74.83     |   ~1.24   |                  |   1   |    61.086     |   ~1.68   |
-|   2   |     75.09     |   ~1.23   |                  |   2   |    61.642     |   ~1.63   |
-|   5   |     75.82     |   ~1.13   |                  |   5   |    62.19      |   ~1.62   |
-                                                       |   8   |    61.858     |   ~1.62   |
+| Alpha | Test Accuracy | Test Loss |                   Alpha | Test Accuracy | Test Loss |   
+|-------|---------------|-----------|                  -------|---------------|-----------|
+|   1   |     74.83     |   ~1.24   |                     1   |    61.086     |   ~1.68   |
+|   2   |     75.09     |   ~1.23   |                     2   |    61.642     |   ~1.63   |
+|   5   |     75.82     |   ~1.13   |                     5   |    62.19      |   ~1.62   |
+                                                          8   |    61.858     |   ~1.62   |
                                                        
 As you can see the results of sigmoid increase as expected but on ImageNet42 they start to decrease this could be due to many reasons. 
 
