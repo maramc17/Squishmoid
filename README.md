@@ -29,5 +29,5 @@ The table below shows the testing accuracies for cifar100 and imagenet32, with a
                                                        
 As you can see the results of sigmoid increase as expected but on ImageNet42 they start to decrease this could be due to many reasons. 
 
-- Being what I had just mentioned the training is a lot slower and as we increase α the gradience is very small making backpropagation take large amounts of time. So this could be a case of not training long enough
-- Or it could be due to the gradience all together. As I've mentioned before I was worried about one thing when increasing the value of α that being the vanishing gradience problem.
+-The training is a lot slower and as we increase alpha, α, the gradience becomes very small making backpropagation take large amounts of time. So this could be a case of not training long enough
+- Or it could be due to the gradience all together. The case of the vainshing gradiet could be the issue due to the derivatives close to zero and one on the sigmoid graph getting much closer to the vlaue of zero, essentially just vanihsing.
